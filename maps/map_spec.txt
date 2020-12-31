@@ -1,0 +1,19 @@
+Map specification.
+Version 1.0
+------------------
+by Razvan( vybez_mR )
+------------------
+
+First comes the height map data:
+
+1) map width( in tiles )- unsigned short
+2) map height( in tiles ) - unsigned short
+3) for each of all the (width+1)*(height+1) items:
+	height data - unsigned char ( 0..255 )
+
+Now comes the map tile data:
+
+1)tileset name used in this map
+2)for each tile:
+	Tileset texture index - unsigned char
+	Walkability byte - unsigned char

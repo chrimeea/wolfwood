@@ -1,0 +1,8 @@
+Numele de frame-uri la modelele md2 trebuie sa urmeze urmatorul format :
+
+<nume_tip_animatie>NNN
+
+unde : <nume_tip_animatie> = stand,walk,run ...
+          NNN = 000 ... 198
+
+Asadar, pentru un tip de animatie toate frame-urile au acelasi nume. Difera NNN, care este strict crescator, incepand cu 0.

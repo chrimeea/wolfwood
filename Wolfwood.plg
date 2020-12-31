@@ -1,0 +1,98 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Wolfwood - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\MOCANU~1\LOCALS~1\Temp\RSP2.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /I "include" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Release/" /Fp"Release/Wolfwood.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\My Documents\Wolfwood\src\game\scripting\Console.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\MOCANU~1\LOCALS~1\Temp\RSP2.tmp" 
+Creating temporary file "C:\DOCUME~1\MOCANU~1\LOCALS~1\Temp\RSP3.tmp" with contents
+[
+vorbisfile_static.lib vorbisenc_static.lib vorbis_static.lib ogg_static.lib core.lib standard.lib opengl32.lib glu32.lib glaux.lib corona.lib alut.lib openal32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/Wolfwood.pdb" /machine:I386 /nodefaultlib:"libcmt.lib" /nodefaultlib:"libcd.lib" /out:"Release/Wolfwood.exe" /libpath:"lib\al" /libpath:"lib\corona" /libpath:"lib\ogg" /libpath:"lib\lua" 
+".\Release\AudioEngine.obj"
+".\Release\AudioSource.obj"
+".\Release\CMD2Model.obj"
+".\Release\C3DSModel.obj"
+".\Release\CAnimatedMesh.obj"
+".\Release\CLight.obj"
+".\Release\CMaterial.obj"
+".\Release\CMesh.obj"
+".\Release\CMeshBufferPool.obj"
+".\Release\CRenderer.obj"
+".\Release\CTextureBufferPool.obj"
+".\Release\CTextureMap.obj"
+".\Release\FontSet.obj"
+".\Release\vector.obj"
+".\Release\CBufferPool.obj"
+".\Release\Config.obj"
+".\Release\Dictionary.obj"
+".\Release\Logger.obj"
+".\Release\Console.obj"
+".\Release\ScriptCommands.obj"
+".\Release\ScriptManager.obj"
+".\Release\EventsManager.obj"
+".\Release\AnimatedEntity.obj"
+".\Release\AttributeManager.obj"
+".\Release\Character.obj"
+".\Release\Entity.obj"
+".\Release\Scene.obj"
+".\Release\Background.obj"
+".\Release\CImageAreaBufferPool.obj"
+".\Release\Main.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\MOCANU~1\LOCALS~1\Temp\RSP3.tmp"
+<h3>Output Window</h3>
+Compiling...
+Console.cpp
+Linking...
+LINK : warning LNK4089: all references to "OpenAL32.dll" discarded by /OPT:REF
+Creating temporary file "C:\DOCUME~1\MOCANU~1\LOCALS~1\Temp\RSP5.tmp" with contents
+[
+/nologo /o"Release/Wolfwood.bsc" 
+".\Release\AudioEngine.sbr"
+".\Release\AudioSource.sbr"
+".\Release\CMD2Model.sbr"
+".\Release\C3DSModel.sbr"
+".\Release\CAnimatedMesh.sbr"
+".\Release\CLight.sbr"
+".\Release\CMaterial.sbr"
+".\Release\CMesh.sbr"
+".\Release\CMeshBufferPool.sbr"
+".\Release\CRenderer.sbr"
+".\Release\CTextureBufferPool.sbr"
+".\Release\CTextureMap.sbr"
+".\Release\FontSet.sbr"
+".\Release\vector.sbr"
+".\Release\CBufferPool.sbr"
+".\Release\Config.sbr"
+".\Release\Dictionary.sbr"
+".\Release\Logger.sbr"
+".\Release\Console.sbr"
+".\Release\ScriptCommands.sbr"
+".\Release\ScriptManager.sbr"
+".\Release\EventsManager.sbr"
+".\Release\AnimatedEntity.sbr"
+".\Release\AttributeManager.sbr"
+".\Release\Character.sbr"
+".\Release\Entity.sbr"
+".\Release\Scene.sbr"
+".\Release\Background.sbr"
+".\Release\CImageAreaBufferPool.sbr"
+".\Release\Main.sbr"]
+Creating command line "bscmake.exe @C:\DOCUME~1\MOCANU~1\LOCALS~1\Temp\RSP5.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+Wolfwood.exe - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>
